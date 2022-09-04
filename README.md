@@ -1,6 +1,6 @@
 # Bike-Sharing-dataset-Machine-Learning
 
-This question is based on the Bike Sharing dataset taken from the UCI Machine Learning
+This is based on the Bike Sharing dataset taken from the UCI Machine Learning
 Repository (originally from http://capitalbikeshare.com/system-data) –
 http://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset.
 The original source of the dataset is attributed to:
