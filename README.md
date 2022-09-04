@@ -47,9 +47,22 @@ The second version of the dataset consists of 17 variables:
 10. weathersit –
 • 1: Clear, Few clouds, Partly cloudy, Partly cloudy
 • 2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
+• 3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+• 4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
+11. temp – Normalized temperature in Celsius. The values are divided to 41 (max)
+12. atemp – Normalized feeling temperature in Celsius. The values are divided to 50 (max)
+13. hum – Normalized humidity. The values are divided to 100 (max)
+14. windspeed – Normalized wind speed. The values are divided to 67 (max)
+15. casual – count of casual users
+16. registered – count of registered users
+17. cnt – count of total rental bikes including both casual and registered
+
+For the purpose of this assignment, the target variable is cnt (i.e., variable 17). There are 12
+explanatory variables from season to windspeed (i.e., variables 3 to 14).
 
 ### Result
 
+Performed a multiple linear regression analysis on the Bike Sharing dataset.
 1. The model after normalisation has an R^2 value of 1.000
 2. F-Statistic is 2.149e+31
 3. RMSE = 1.683500083800179e-13
